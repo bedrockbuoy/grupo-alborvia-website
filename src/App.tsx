@@ -19,6 +19,8 @@ import './App.css';
 
 // Floating Geometrical Shapes Background
 const GeometricBackground = ({ variant = "default" }: { variant?: string }) => {
+  // variant can be used for future customization
+  void variant;
   const shapes = [
     // Golden rotating square
     {
